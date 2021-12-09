@@ -46,4 +46,4 @@
 ## http://127.0.0.1:8000/api/student/
 
 ## 4. Write a  Django orm to list students in the form of below output, and create an endpoint to display the same
-## http://127.0.0.1:8000/api/count
+## http://127.0.0.1:8000/api/count/

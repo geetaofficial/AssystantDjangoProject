@@ -9,5 +9,5 @@ router.register('department', DepartmentViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('count',StudentCountByDepartmentView.as_view()),
+    path('count/', StudentCountByDepartmentView.as_view(), name='count'),
 ]
